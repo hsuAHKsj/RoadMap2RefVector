@@ -15,7 +15,7 @@ function visualizeShortestPath(P, intersectionPoints, start_point, end_point, li
     y = [];
     for i = 1:length(P)
         node = P(i);  % 最短路径节点序列号
-        disp(node)
+
         if node == 1 
             point = start_point; 
             text(point(1), point(2), '起点', 'Color', 'g', 'HorizontalAlignment', 'left');

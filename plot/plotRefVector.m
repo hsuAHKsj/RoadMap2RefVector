@@ -1,4 +1,4 @@
-function testPlot(xyThetaList, arrowLength)
+function plotRefVector(xyThetaList, arrowLength)
 %     figure;
     hold on;
     axis equal;

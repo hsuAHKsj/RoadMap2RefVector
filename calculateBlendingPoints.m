@@ -8,8 +8,6 @@ function xyThetaList = calculateBlendingPoints(P, intersectionPoints, start_poin
     % 扩充路径点序列
     for i = 1:length(P)
         node = P(i);  % 最短路径节点序列号
-        disp(node)
-        
         if node == 1 
             point = start_point; 
             prop_value = 's';  % 起始点属性为's'
